@@ -232,12 +232,12 @@ Connection ~ 2650 2050
 $Comp
 L GND #PWR05
 U 1 1 57A3F8B3
-P 2650 2350
-F 0 "#PWR05" H 2650 2100 50  0001 C CNN
-F 1 "GND" H 2650 2200 50  0000 C CNN
-F 2 "" H 2650 2350 50  0000 C CNN
-F 3 "" H 2650 2350 50  0000 C CNN
-	1    2650 2350
+P 2650 2400
+F 0 "#PWR05" H 2650 2150 50  0001 C CNN
+F 1 "GND" H 2650 2250 50  0000 C CNN
+F 2 "" H 2650 2400 50  0000 C CNN
+F 3 "" H 2650 2400 50  0000 C CNN
+	1    2650 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -298,4 +298,21 @@ Connection ~ 4250 2850
 Wire Wire Line
 	4500 2850 4500 2750
 Connection ~ 4500 2850
+Connection ~ 1800 2650
+Connection ~ 1800 2050
+Connection ~ 1800 2150
+Connection ~ 1800 2750
+Connection ~ 3000 1900
+Connection ~ 3100 1900
+Connection ~ 3200 1900
+Connection ~ 3300 1900
+Connection ~ 3400 1900
+Connection ~ 3500 1900
+Connection ~ 4250 1950
+Connection ~ 4500 1950
+Connection ~ 4850 2250
+Connection ~ 4850 2350
+Connection ~ 4850 2450
+Wire Wire Line
+	2650 2400 2650 2350
 $EndSCHEMATC
